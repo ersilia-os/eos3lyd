@@ -1,1 +1,2 @@
 name,type,direction,description
+efflux_evader_proba,float,high,Probability of the molecule being an efflux evader in E.coli

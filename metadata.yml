@@ -2,43 +2,31 @@ Identifier: eos3lyd
 Slug: efflux-pump-avoidance-gram-negative
 Status: In progress
 Title: Efflux pump avoidance in gram-negative bacteria
-Description: Data from Co-ADD related to wild-type Escherichia coli, the efflux-deficient
-  tolC strain, and the hyper-permeable lpxC strain were used to define efflux evaders
-  and substrates, based on the relative inhibition of wild-type vs permeable strains.
-  In the study, the learned patterns of efflux evasion were used to optimize matched
-  molecular pairs.
+Description: Using Co-ADD data on E.coli inhibition (WT, TolC efflux deficient and lpxC hyperpermable strains)
+  73k compounds were classified as inactive, efflux evaders and efflux substrates, based on the relative inhibition of wild-type vs permeable strains.
+  We have used the efflux evaders (186) and efflux substrates (554) data to train a model that predicts the probability of a molecule being an efflux evader.
 Deployment:
 - Local
-- Online
-Source: Local, Online
-Source Type: Internal, Replicated, External
-Task: Annotation, Representation, Sampling
-Subtask: Property calculation or prediction, Activity prediction, Featurization, Projection,
-  Similarity search, Generation
+Source: Local
+Source Type: Internal
+Task: Annotation
+Subtask: Activity prediction
 Input:
 - Compound
 Input Dimension: 1
 Output:
-- Value
 - Score
-- Compound
-- Probability
-- Experimental value
-- '...'
 Output Dimension: 1
-Output Consistency: Fixed, Variable
-Interpretation: 'The output of this template model should be interpreted like this.
-
-  '
+Output Consistency: Fixed
+Interpretation: 'Probability of being an efflux evader'
 Tag:
 - Antimicrobial activity
 Biomedical Area:
-- Biomedical Area 1
-- Biomedical Area 2
+- Antimicrobial resistance
 Target Organism:
-- Target Organism 1
-- Target Organism 2
-Publication Type: Peer reviewed, Preprint, Other
+- Escherichia coli
+- Gram-negative bacteria
+Publication Type: Peer reviewed
 Publication Year: 2025
 Publication: https://www.nature.com/articles/s44259-024-00023-w
 Source Code: https://github.com/domgurvic/efflux_evaders_and_substrates
