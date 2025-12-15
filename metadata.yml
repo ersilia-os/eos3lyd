@@ -2,32 +2,36 @@ Identifier: eos3lyd
 Slug: efflux-pump-avoidance-gram-negative
 Status: In progress
 Title: Efflux pump avoidance in gram-negative bacteria
-Description: Using Co-ADD data on E.coli inhibition (WT, TolC efflux deficient and lpxC hyperpermable strains)
-  73k compounds were classified as inactive, efflux evaders and efflux substrates, based on the relative inhibition of wild-type vs permeable strains.
-  We have used the efflux evaders (186) and efflux substrates (554) data to train a model that predicts the probability of a molecule being an efflux evader.
+Description: Using Co-ADD data on E.coli inhibition (WT, TolC efflux deficient 
+  and lpxC hyperpermable strains) 73k compounds were classified as inactive, 
+  efflux evaders and efflux substrates, based on the relative inhibition of 
+  wild-type vs permeable strains. We have used the efflux evaders (186) and 
+  efflux substrates (554) data to train a model that predicts the probability of
+  a molecule being an efflux evader.
 Deployment:
-- Local
+  - Local
 Source: Local
 Source Type: Internal
 Task: Annotation
 Subtask: Activity prediction
 Input:
-- Compound
+  - Compound
 Input Dimension: 1
 Output:
-- Score
+  - Score
 Output Dimension: 1
 Output Consistency: Fixed
-Interpretation: 'Probability of being an efflux evader'
+Interpretation: Probability of being an efflux evader
 Tag:
-- Antimicrobial activity
+  - Antimicrobial activity
 Biomedical Area:
-- Antimicrobial resistance
+  - Antimicrobial resistance
 Target Organism:
-- Escherichia coli
-- Gram-negative bacteria
+  - Escherichia coli
+  - Gram-negative bacteria
 Publication Type: Peer reviewed
 Publication Year: 2025
 Publication: https://www.nature.com/articles/s44259-024-00023-w
 Source Code: https://github.com/domgurvic/efflux_evaders_and_substrates
 License: GPL-3.0-or-later
+Incorporation Date: '2025-12-12'
