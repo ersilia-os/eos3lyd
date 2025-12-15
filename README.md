@@ -2,8 +2,7 @@
 
 Using Co-ADD data on E.coli inhibition (WT, TolC efflux deficient and lpxC hyperpermable strains) 73k compounds were classified as inactive, efflux evaders and efflux substrates, based on the relative inhibition of wild-type vs permeable strains. We have used the efflux evaders (186) and efflux substrates (554) data to train a model that predicts the probability of a molecule being an efflux evader.
 
-This model was incorporated on 2025-12-12.
-
+This model was incorporated on 2025-12-12.Last packaged on 2025-12-15.
 
 ## Information
 ### Identifiers
@@ -35,12 +34,19 @@ Below are the **Output Columns** of the model:
 ### Source and Deployment
 - **Source:** `Local`
 - **Source Type:** `Internal`
+- **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos3lyd](https://hub.docker.com/r/ersiliaos/eos3lyd)
+- **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos3lyd.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos3lyd.zip)
 
 ### Resource Consumption
 - **Model Size (Mb):** `3`
 - **Environment Size (Mb):** `1916`
+- **Image Size (Mb):** `1940.32`
 
+**Computational Performance (seconds):**
+- 10 inputs: `33`
+- 100 inputs: `28.16`
+- 10000 inputs: `556.71`
 
 ### References
 - **Source Code**: [https://github.com/domgurvic/efflux_evaders_and_substrates](https://github.com/domgurvic/efflux_evaders_and_substrates)
