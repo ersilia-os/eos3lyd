@@ -43,7 +43,7 @@ def plot_yhat(ax,name):
     ax.set_xlabel("")
     ax.set_ylabel("Score")
     ax.set_ylim(-0.05, 1.05)
-    ax.set_title(name)
+    ax.set_title("efflux evader")
 
 def plot_roc_curve(ax, name):
     with open(os.path.join(model_dir, f"{name}", "report_crossval.json"), 'r') as f:
