@@ -50,7 +50,7 @@ Below are the **Output Columns** of the model:
 
 ### References
 - **Source Code**: [https://github.com/domgurvic/efflux_evaders_and_substrates](https://github.com/domgurvic/efflux_evaders_and_substrates)
-- **Publication**: [https://www.nature.com/articles/s44259-024-00023-w](https://www.nature.com/articles/s44259-024-00023-w)
+- **Publication**: [https://doi.org/10.1038/s44259-024-00023-w](https://doi.org/10.1038/s44259-024-00023-w)
 - **Publication Type:** `Peer reviewed`
 - **Publication Year:** `2025`
 - **Ersilia Contributor:** [miquelduranfrigola](https://github.com/miquelduranfrigola)
