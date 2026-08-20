@@ -1,13 +1,13 @@
 # Efflux pump avoidance in gram-negative bacteria
 
-Using Co-ADD data on E.coli inhibition (WT, TolC efflux deficient and lpxC hyperpermable strains) 73k compounds were classified as inactive, efflux evaders and efflux substrates, based on the relative inhibition of wild-type vs permeable strains. We have used the efflux evaders (186) and efflux substrates (554) data to train a model that predicts the probability of a molecule being an efflux evader.
+Estimates whether a compound will evade the multidrug efflux pumps that expel antibacterials from Gram-negative cells, one of the two barriers, alongside outer membrane permeability, that keeps most chemistry from reaching its target. Gurvic and Zachariae combined molecular simulation with machine learning to identify the structural modifications that reduce recognition by AcrB-type pumps, offering design guidance rather than a single verdict. Efflux avoidance alone does not confer antibacterial activity.
 
 This model was incorporated on 2025-12-12.Last packaged on 2025-12-15.
 
 ## Information
 ### Identifiers
 - **Ersilia Identifier:** `eos3lyd`
-- **Slug:** `efflux-pump-avoidance-gram-negative`
+- **Slug:** `efflux-avoidance-gram-negative`
 
 ### Domain
 - **Task:** `Annotation`
@@ -23,7 +23,7 @@ This model was incorporated on 2025-12-12.Last packaged on 2025-12-15.
 ### Output
 - **Output Dimension:** `1`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Probability of being an efflux evader
+- **Interpretation:** Probability that a compound avoids multidrug efflux pumps in Gram-negative bacteria.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
@@ -52,11 +52,11 @@ Below are the **Output Columns** of the model:
 - **Source Code**: [https://github.com/domgurvic/efflux_evaders_and_substrates](https://github.com/domgurvic/efflux_evaders_and_substrates)
 - **Publication**: [https://doi.org/10.1038/s44259-024-00023-w](https://doi.org/10.1038/s44259-024-00023-w)
 - **Publication Type:** `Peer reviewed`
-- **Publication Year:** `2025`
+- **Publication Year:** `2024`
 - **Ersilia Contributor:** [miquelduranfrigola](https://github.com/miquelduranfrigola)
 
 ### License
-This package is licensed under a [GPL-3.0](https://github.com/ersilia-os/ersilia/blob/master/LICENSE) license. The model contained within this package is licensed under a [GPL-3.0-or-later](LICENSE) license.
+This package is licensed under a [GPL-3.0](https://github.com/ersilia-os/ersilia/blob/master/LICENSE) license. The model contained within this package is licensed under a [Apache-2.0](LICENSE) license.
 
 **Notice**: Ersilia grants access to models _as is_, directly from the original authors, please refer to the original code repository and/or publication if you use the model in your research.
 
