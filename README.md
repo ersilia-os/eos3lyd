@@ -1,6 +1,6 @@
 # Efflux pump avoidance in gram-negative bacteria
 
-Estimates whether a compound will evade the multidrug efflux pumps that expel antibacterials from Gram-negative cells, one of the two barriers, alongside outer membrane permeability, that keeps most chemistry from reaching its target. Gurvic and Zachariae combined molecular simulation with machine learning to identify the structural modifications that reduce recognition by AcrB-type pumps, offering design guidance rather than a single verdict. Efflux avoidance alone does not confer antibacterial activity.
+Using Co-ADD data on E.coli inhibition (WT, TolC efflux deficient and lpxC hyperpermable strains) 73k compounds were classified as inactive, efflux evaders and efflux substrates, based on the relative inhibition of wild-type vs permeable strains. We have used the efflux evaders (186) and efflux substrates (554) data to train a model that predicts the probability of a molecule being an efflux evader.
 
 This model was incorporated on 2025-12-12.Last packaged on 2025-12-15.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2025-12-12.Last packaged on 2025-12-15.
 ### Output
 - **Output Dimension:** `1`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Probability that a compound avoids multidrug efflux pumps in Gram-negative bacteria.
+- **Interpretation:** Probability of being an efflux evader
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
