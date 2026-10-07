@@ -1,6 +1,6 @@
 # Efflux pump avoidance in gram-negative bacteria
 
-Using Co-ADD data on E.coli inhibition (WT, TolC efflux deficient and lpxC hyperpermable strains) 73k compounds were classified as inactive, efflux evaders and efflux substrates, based on the relative inhibition of wild-type vs permeable strains. We have used the efflux evaders (186) and efflux substrates (554) data to train a model that predicts the probability of a molecule being an efflux evader.
+Estimates whether a compound slips past the multidrug efflux pumps that expel antibacterials from Gram-negative cells, one of the two barriers, alongside outer membrane permeability, that keeps most chemistry from reaching its target. Gurvic and Zachariae compared growth inhibition of 73,737 CO-ADD compounds across wild-type, efflux-deficient tolC and hyperpermeable lpxC Escherichia coli, labelling 186 as efflux evaders and 554 as substrates. Ersilia trained the classifier served here on those two classes. Evading efflux does not by itself confer antibacterial activity.
 
 This model was incorporated on 2025-12-12.Last packaged on 2025-12-15.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2025-12-12.Last packaged on 2025-12-15.
 ### Output
 - **Output Dimension:** `1`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Probability of being an efflux evader
+- **Interpretation:** Probability of evading TolC-dependent efflux in Escherichia coli, trained on 186 evaders against 554 substrates.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
