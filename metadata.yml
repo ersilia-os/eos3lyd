@@ -1,6 +1,6 @@
 Identifier: eos3lyd
 Slug: efflux-avoidance-gram-negative
-Status: In maintenance
+Status: Ready
 Title: Efflux pump avoidance in gram-negative bacteria
 Description: Estimates whether a compound slips past the multidrug efflux pumps 
   that expel antibacterials from Gram-negative cells, one of the two barriers, 
@@ -40,7 +40,7 @@ Source Code: https://github.com/domgurvic/efflux_evaders_and_substrates
 License: Apache-2.0
 Contributor: miquelduranfrigola
 Incorporation Date: '2025-12-12'
-Last Packaging Date: '2025-12-15'
+Last Packaging Date: '2026-10-19'
 Release: v1.0.0
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos3lyd.zip
 DockerHub: https://hub.docker.com/r/ersiliaos/eos3lyd
@@ -49,9 +49,9 @@ Docker Architecture:
   - ARM64
 Model Size: 3.0
 Environment Size: 6436.0
-Image Size: 1940.32
-Computational Performance 1: 33.0
-Computational Performance 2: 23.22
-Computational Performance 3: 28.16
-Computational Performance 4: 124.91
-Computational Performance 5: 556.71
+Image Size: 6498.9
+Computational Performance 1: 30.12
+Computational Performance 2: 21.26
+Computational Performance 3: 23.89
+Computational Performance 4: 91.6
+Computational Performance 5: 409.61
