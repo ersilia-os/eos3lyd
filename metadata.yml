@@ -42,7 +42,7 @@ Source Code: https://github.com/domgurvic/efflux_evaders_and_substrates
 License: Apache-2.0
 Contributor: miquelduranfrigola
 Incorporation Date: '2025-12-12'
-Last Packaging Date: '2026-10-19'
+Last Packaging Date: '2026-10-26'
 Release: v1.0.0
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos3lyd.zip
 DockerHub: https://hub.docker.com/r/ersiliaos/eos3lyd
@@ -51,9 +51,9 @@ Docker Architecture:
   - ARM64
 Model Size: 11.0
 Environment Size: 7512.0
-Image Size: 6498.9
-Computational Performance 1: 30.12
-Computational Performance 2: 21.26
-Computational Performance 3: 23.89
-Computational Performance 4: 91.6
-Computational Performance 5: 409.61
+Image Size: 7541.73
+Computational Performance 1: 40.06
+Computational Performance 2: 28.46
+Computational Performance 3: 30.82
+Computational Performance 4: 153.97
+Computational Performance 5: 667.84
