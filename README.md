@@ -23,12 +23,12 @@ This model was incorporated on 2025-12-12.Last packaged on 2026-10-19.
 ### Output
 - **Output Dimension:** `1`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Probability of evading TolC-dependent efflux in Escherichia coli, trained on 186 evaders against 554 substrates.
+- **Interpretation:** Rank score of evasion of TolC-dependent efflux in Escherichia coli calibrated against the Ersilia reference library of 50K compounds. A score above 0.65 beats 99% of that library. Trained on 186 evaders against 554 substrates.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
 |------|------|-----------|-------------|
-| efflux_evader_proba | float | high | Probability of the molecule being an efflux evader in E.coli |
+| efflux_evader_rank | float | high | Rank score of the compound's predicted ability to evade TolC-dependent efflux in Escherichia coli. Calibrated against 50K compounds from the Ersilia reference library so that a score of 0.65 is better than 99% of them. Recommended threshold: 0.65. |
 
 
 ### Source and Deployment
