@@ -2,7 +2,8 @@
 
 Estimates whether a compound slips past the multidrug efflux pumps that expel antibacterials from Gram-negative cells, one of the two barriers, alongside outer membrane permeability, that keeps most chemistry from reaching its target. Gurvic and Zachariae compared growth inhibition of 73,737 CO-ADD compounds across wild-type, efflux-deficient tolC and hyperpermeable lpxC Escherichia coli, labelling 186 as efflux evaders and 554 as substrates. Ersilia trained the classifier served here on those two classes. Evading efflux does not by itself confer antibacterial activity.
 
-This model was incorporated on 2025-12-12.Last packaged on 2026-10-26.
+This model was incorporated on 2025-12-12.
+Last packaged on 2026-10-26.
 
 ## Information
 ### Identifiers
@@ -37,6 +38,7 @@ Below are the **Output Columns** of the model:
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos3lyd](https://hub.docker.com/r/ersiliaos/eos3lyd)
 - **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos3lyd.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos3lyd.zip)
+- **Apptainer**: [https://models-sif.s3.eu-north-1.amazonaws.com/eos3lyd_v2.sif](https://models-sif.s3.eu-north-1.amazonaws.com/eos3lyd_v2.sif)
 
 ### Resource Consumption
 - **Model Size (Mb):** `11`
