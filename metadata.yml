@@ -2,13 +2,13 @@ Identifier: eos3lyd
 Slug: efflux-avoidance-gram-negative
 Status: Ready
 Title: Efflux pump avoidance in gram-negative bacteria
-Description: Estimates whether a compound slips past the multidrug efflux pumps
-  that expel antibacterials from Gram-negative cells, one of the two barriers,
-  with outer membrane permeability, that keep most chemistry from its target.
-  Gurvic and Zachariae compared growth inhibition of 73,737 CO-ADD compounds
-  across wild-type, tolC and lpxC Escherichia coli, labelling 186 as efflux
-  evaders and 554 as substrates. Ersilia trained a LazyQSAR classifier on those
-  two classes, with a five-fold out-of-fold AUROC of 0.91. Evading efflux does
+Description: Estimates whether a compound slips past the multidrug efflux pumps 
+  that expel antibacterials from Gram-negative cells, one of the two barriers, 
+  with outer membrane permeability, that keep most chemistry from its target. 
+  Gurvic and Zachariae compared growth inhibition of 73,737 CO-ADD compounds 
+  across wild-type, tolC and lpxC Escherichia coli, labelling 186 as efflux 
+  evaders and 554 as substrates. Ersilia trained a LazyQSAR classifier on those 
+  two classes, with a five-fold out-of-fold AUROC of 0.91. Evading efflux does 
   not by itself confer activity.
 Deployment:
   - Local
