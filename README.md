@@ -3,7 +3,7 @@
 Estimates whether a compound slips past the multidrug efflux pumps that expel antibacterials from Gram-negative cells, one of the two barriers, with outer membrane permeability, that keep most chemistry from its target. Gurvic and Zachariae compared growth inhibition of 73,737 CO-ADD compounds across wild-type, tolC and lpxC Escherichia coli, labelling 186 as efflux evaders and 554 as substrates. Ersilia trained a LazyQSAR classifier on those two classes, with a five-fold out-of-fold AUROC of 0.91. Evading efflux does not by itself confer activity.
 
 This model was incorporated on 2025-12-12.
-Last packaged on 2026-10-26.
+Last packaged on 2026-11-23.
 
 ## Information
 ### Identifiers
@@ -43,12 +43,12 @@ Below are the **Output Columns** of the model:
 ### Resource Consumption
 - **Model Size (Mb):** `27`
 - **Environment Size (Mb):** `6954`
-- **Image Size (Mb):** `7541.73`
+- **Image Size (Mb):** `3286.62`
 
 **Computational Performance (seconds):**
-- 10 inputs: `40.06`
-- 100 inputs: `30.82`
-- 10000 inputs: `667.84`
+- 10 inputs: `29.85`
+- 100 inputs: `23.58`
+- 10000 inputs: `105.04`
 
 ### References
 - **Source Code**: [https://github.com/domgurvic/efflux_evaders_and_substrates](https://github.com/domgurvic/efflux_evaders_and_substrates)
