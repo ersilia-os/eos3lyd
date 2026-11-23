@@ -1,6 +1,6 @@
 # Efflux pump avoidance in gram-negative bacteria
 
-Estimates whether a compound slips past the multidrug efflux pumps that expel antibacterials from Gram-negative cells, one of the two barriers, alongside outer membrane permeability, that keeps most chemistry from reaching its target. Gurvic and Zachariae compared growth inhibition of 73,737 CO-ADD compounds across wild-type, efflux-deficient tolC and hyperpermeable lpxC Escherichia coli, labelling 186 as efflux evaders and 554 as substrates. Ersilia trained the classifier served here on those two classes. Evading efflux does not by itself confer antibacterial activity.
+Estimates whether a compound slips past the multidrug efflux pumps that expel antibacterials from Gram-negative cells, one of the two barriers, with outer membrane permeability, that keep most chemistry from its target. Gurvic and Zachariae compared growth inhibition of 73,737 CO-ADD compounds across wild-type, tolC and lpxC Escherichia coli, labelling 186 as efflux evaders and 554 as substrates. Ersilia trained a LazyQSAR classifier on those two classes, with a five-fold out-of-fold AUROC of 0.91. Evading efflux does not by itself confer activity.
 
 This model was incorporated on 2025-12-12.
 Last packaged on 2026-10-26.
